@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* dietDoctorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dietDoctorTestTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		20BE90EF0C43AE928D7D70F2 /* libPods-dietDoctorTest-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7F94D19E4CBB4C51AF0A2B /* libPods-dietDoctorTest-tvOS.a */; };
-		2211A0259CC00572C3D5AA89 /* libPods-dietDoctorTest-dietDoctorTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F49E1A3DD727D40A1E71C1B /* libPods-dietDoctorTest-dietDoctorTestTests.a */; };
+		279C53CC97F3A7C7F8DBEBB7 /* libPods-dietDoctorTest-dietDoctorTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47912E7429CA5396B9E4E48 /* libPods-dietDoctorTest-dietDoctorTestTests.a */; };
+		2A92E439C51A15F57A2E821C /* libPods-dietDoctorTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C15BB45EAD59C5CB2B954F /* libPods-dietDoctorTest.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* dietDoctorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dietDoctorTestTests.m */; };
+		7DD9674F3A253D37BC27E08A /* libPods-dietDoctorTest-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCBC36CF8A56E64FB341629 /* libPods-dietDoctorTest-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AF226EE63A95577C5BADD148 /* libPods-dietDoctorTest-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC359ECBAA23E040FC9972 /* libPods-dietDoctorTest-tvOSTests.a */; };
-		CB1066F4EC88B4B61A4D21B0 /* libPods-dietDoctorTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC54BAA959BB7641D841F618 /* libPods-dietDoctorTest.a */; };
+		CB44AC48D1AB5D2CA2E55D53 /* libPods-dietDoctorTest-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F22796504F1538BC5CDB6CD0 /* libPods-dietDoctorTest-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,31 +40,29 @@
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* dietDoctorTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dietDoctorTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* dietDoctorTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dietDoctorTestTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* dietDoctorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dietDoctorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = dietDoctorTest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = dietDoctorTest/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dietDoctorTest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dietDoctorTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dietDoctorTest/main.m; sourceTree = "<group>"; };
-		14382D637B76EC49C68AF403 /* Pods-dietDoctorTest-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOSTests/Pods-dietDoctorTest-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F49E1A3DD727D40A1E71C1B /* libPods-dietDoctorTest-dietDoctorTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest-dietDoctorTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27E061494E06036D5EF0B9AB /* Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		200FD44F9FDBD0DF8E53FA4F /* Pods-dietDoctorTest-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOSTests/Pods-dietDoctorTest-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		21C33D24C4E5DCAEB940970E /* Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A79FCB488C23CE57E509402 /* Pods-dietDoctorTest-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOS.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOS/Pods-dietDoctorTest-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* dietDoctorTest-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dietDoctorTest-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* dietDoctorTest-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dietDoctorTest-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BD42DA0F84C49D9EAB8BC52 /* Pods-dietDoctorTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest.debug.xcconfig"; sourceTree = "<group>"; };
-		3E542684CADF5AA0E1FC1B91 /* Pods-dietDoctorTest-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOSTests/Pods-dietDoctorTest-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5B7F94D19E4CBB4C51AF0A2B /* libPods-dietDoctorTest-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79B7FCB7C280A7C7BC183903 /* Pods-dietDoctorTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest.release.xcconfig"; sourceTree = "<group>"; };
+		50C15BB45EAD59C5CB2B954F /* libPods-dietDoctorTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FED9BA8963908AAFD12E28 /* Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73EB87FAB9133A084701ADB0 /* Pods-dietDoctorTest-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOS/Pods-dietDoctorTest-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = dietDoctorTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A0B961083E5580A3A4F2348A /* Pods-dietDoctorTest-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOS.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOS/Pods-dietDoctorTest-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A5FC359ECBAA23E040FC9972 /* libPods-dietDoctorTest-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC54BAA959BB7641D841F618 /* libPods-dietDoctorTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B849760F32048F534436FCFA /* Pods-dietDoctorTest-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOS/Pods-dietDoctorTest-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		82122530420472F8DAC1149F /* Pods-dietDoctorTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest.release.xcconfig"; sourceTree = "<group>"; };
+		ADAA3E70F4C3835604879FAD /* Pods-dietDoctorTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BCCBC36CF8A56E64FB341629 /* libPods-dietDoctorTest-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47912E7429CA5396B9E4E48 /* libPods-dietDoctorTest-dietDoctorTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest-dietDoctorTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A254B21807779DC54DFEC3 /* Pods-dietDoctorTest-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-tvOSTests/Pods-dietDoctorTest-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FFCECAB4AB12A822D083498A /* Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig"; path = "Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F22796504F1538BC5CDB6CD0 /* libPods-dietDoctorTest-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dietDoctorTest-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2211A0259CC00572C3D5AA89 /* libPods-dietDoctorTest-dietDoctorTestTests.a in Frameworks */,
+				279C53CC97F3A7C7F8DBEBB7 /* libPods-dietDoctorTest-dietDoctorTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1066F4EC88B4B61A4D21B0 /* libPods-dietDoctorTest.a in Frameworks */,
+				2A92E439C51A15F57A2E821C /* libPods-dietDoctorTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BE90EF0C43AE928D7D70F2 /* libPods-dietDoctorTest-tvOS.a in Frameworks */,
+				7DD9674F3A253D37BC27E08A /* libPods-dietDoctorTest-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,30 +94,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF226EE63A95577C5BADD148 /* libPods-dietDoctorTest-tvOSTests.a in Frameworks */,
+				CB44AC48D1AB5D2CA2E55D53 /* libPods-dietDoctorTest-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* dietDoctorTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* dietDoctorTestTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = dietDoctorTestTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* dietDoctorTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,27 +120,33 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AC54BAA959BB7641D841F618 /* libPods-dietDoctorTest.a */,
-				1F49E1A3DD727D40A1E71C1B /* libPods-dietDoctorTest-dietDoctorTestTests.a */,
-				5B7F94D19E4CBB4C51AF0A2B /* libPods-dietDoctorTest-tvOS.a */,
-				A5FC359ECBAA23E040FC9972 /* libPods-dietDoctorTest-tvOSTests.a */,
+				50C15BB45EAD59C5CB2B954F /* libPods-dietDoctorTest.a */,
+				C47912E7429CA5396B9E4E48 /* libPods-dietDoctorTest-dietDoctorTestTests.a */,
+				BCCBC36CF8A56E64FB341629 /* libPods-dietDoctorTest-tvOS.a */,
+				F22796504F1538BC5CDB6CD0 /* libPods-dietDoctorTest-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6815D67CEF08A92CF97DB863 /* Pods */ = {
+		3CD1A712DF284A78953F0C3A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3BD42DA0F84C49D9EAB8BC52 /* Pods-dietDoctorTest.debug.xcconfig */,
-				79B7FCB7C280A7C7BC183903 /* Pods-dietDoctorTest.release.xcconfig */,
-				27E061494E06036D5EF0B9AB /* Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig */,
-				FFCECAB4AB12A822D083498A /* Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig */,
-				B849760F32048F534436FCFA /* Pods-dietDoctorTest-tvOS.debug.xcconfig */,
-				A0B961083E5580A3A4F2348A /* Pods-dietDoctorTest-tvOS.release.xcconfig */,
-				14382D637B76EC49C68AF403 /* Pods-dietDoctorTest-tvOSTests.debug.xcconfig */,
-				3E542684CADF5AA0E1FC1B91 /* Pods-dietDoctorTest-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5F945F6E2511814E969DDF6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADAA3E70F4C3835604879FAD /* Pods-dietDoctorTest.debug.xcconfig */,
+				82122530420472F8DAC1149F /* Pods-dietDoctorTest.release.xcconfig */,
+				64FED9BA8963908AAFD12E28 /* Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig */,
+				21C33D24C4E5DCAEB940970E /* Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig */,
+				73EB87FAB9133A084701ADB0 /* Pods-dietDoctorTest-tvOS.debug.xcconfig */,
+				2A79FCB488C23CE57E509402 /* Pods-dietDoctorTest-tvOS.release.xcconfig */,
+				D7A254B21807779DC54DFEC3 /* Pods-dietDoctorTest-tvOSTests.debug.xcconfig */,
+				200FD44F9FDBD0DF8E53FA4F /* Pods-dietDoctorTest-tvOSTests.release.xcconfig */,
+			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -177,10 +162,10 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* dietDoctorTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* dietDoctorTestTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				6815D67CEF08A92CF97DB863 /* Pods */,
+				5F945F6E2511814E969DDF6B /* Pods */,
+				3CD1A712DF284A78953F0C3A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,11 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dietDoctorTestTests" */;
 			buildPhases = (
-				0CE465416F74BE42609D4A4E /* [CP] Check Pods Manifest.lock */,
+				DE0F7C48A21653EFFD79A4D5 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				070E56E02692374BBB51017F /* [CP] Copy Pods Resources */,
+				CA590075FD0A7C23E870D4A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +210,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dietDoctorTest" */;
 			buildPhases = (
-				D1FC28BCBC894A1D346DF3EE /* [CP] Check Pods Manifest.lock */,
+				95EE04CA841F904C2B5CE6CB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				AEDE3DB532B6140F458DDECE /* [CP] Copy Pods Resources */,
+				95EBE2BCF148D714B669B208 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dietDoctorTest-tvOS" */;
 			buildPhases = (
-				354BF4BDDBE784A58C65D31D /* [CP] Check Pods Manifest.lock */,
+				A83DAB69EBB2A46B88ED3EEE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dietDoctorTest-tvOSTests" */;
 			buildPhases = (
-				459CEF37868C3A4CBB7F8C77 /* [CP] Check Pods Manifest.lock */,
+				FB5B555304DB57418268B904 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,46 +362,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		070E56E02692374BBB51017F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0CE465416F74BE42609D4A4E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dietDoctorTest-dietDoctorTestTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,7 +376,79 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		354BF4BDDBE784A58C65D31D /* [CP] Check Pods Manifest.lock */ = {
+		95EBE2BCF148D714B669B208 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95EE04CA841F904C2B5CE6CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dietDoctorTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83DAB69EBB2A46B88ED3EEE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +470,79 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		459CEF37868C3A4CBB7F8C77 /* [CP] Check Pods Manifest.lock */ = {
+		CA590075FD0A7C23E870D4A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest-dietDoctorTestTests/Pods-dietDoctorTest-dietDoctorTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0F7C48A21653EFFD79A4D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dietDoctorTest-dietDoctorTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5B555304DB57418268B904 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,46 +558,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-dietDoctorTest-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AEDE3DB532B6140F458DDECE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dietDoctorTest/Pods-dietDoctorTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1FC28BCBC894A1D346DF3EE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dietDoctorTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +609,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* dietDoctorTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +634,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* dietDoctorTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +655,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27E061494E06036D5EF0B9AB /* Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig */;
+			baseConfigurationReference = 64FED9BA8963908AAFD12E28 /* Pods-dietDoctorTest-dietDoctorTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +678,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFCECAB4AB12A822D083498A /* Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig */;
+			baseConfigurationReference = 21C33D24C4E5DCAEB940970E /* Pods-dietDoctorTest-dietDoctorTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +698,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD42DA0F84C49D9EAB8BC52 /* Pods-dietDoctorTest.debug.xcconfig */;
+			baseConfigurationReference = ADAA3E70F4C3835604879FAD /* Pods-dietDoctorTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +721,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79B7FCB7C280A7C7BC183903 /* Pods-dietDoctorTest.release.xcconfig */;
+			baseConfigurationReference = 82122530420472F8DAC1149F /* Pods-dietDoctorTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +742,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B849760F32048F534436FCFA /* Pods-dietDoctorTest-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 73EB87FAB9133A084701ADB0 /* Pods-dietDoctorTest-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +770,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0B961083E5580A3A4F2348A /* Pods-dietDoctorTest-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2A79FCB488C23CE57E509402 /* Pods-dietDoctorTest-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +798,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14382D637B76EC49C68AF403 /* Pods-dietDoctorTest-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = D7A254B21807779DC54DFEC3 /* Pods-dietDoctorTest-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +825,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E542684CADF5AA0E1FC1B91 /* Pods-dietDoctorTest-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 200FD44F9FDBD0DF8E53FA4F /* Pods-dietDoctorTest-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
