@@ -21,7 +21,7 @@ class InitialLoading extends Component {
     if (token) {
       navigation.navigate('AppNavigator');
     } else {
-      navigation.navigate('AuthNavigator');
+      navigation.navigate('LandingScreen');
     }
   }
 

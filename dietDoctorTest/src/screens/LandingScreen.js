@@ -11,7 +11,7 @@ const LandingScreen = ({ navigation }) => {
     navigation.navigate('LoginScreen');
   };
   const onSkipPress = () => {
-    navigation.navigate('HomeScreen');
+    navigation.navigate('AppNavigator');
   };
 
   return (
