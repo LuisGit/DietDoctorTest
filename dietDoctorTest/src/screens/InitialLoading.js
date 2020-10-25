@@ -8,20 +8,20 @@ const backgroundImage = require('../assets/images/LaunchScreen.png');
 class InitialLoading extends Component {
   constructor(props) {
     super(props);
-    this.getToken = this.getToken.bind(this);
+    this.getUserToken = this.getUserToken.bind(this);
   }
 
   componentDidMount() {
-    this.getToken();
+    this.getUserToken();
   }
 
-  async getToken() {
+  async getUserToken() {
     const { navigation } = this.props;
     const token = await getToken();
     if (token) {
-      navigation.navigate('HomeScreen');
+      navigation.navigate('AppNavigator');
     } else {
-      navigation.navigate('LandingScreen');
+      navigation.navigate('AuthNavigator');
     }
   }
 

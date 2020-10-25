@@ -7,6 +7,7 @@ const LandingStyles = StyleSheet.create({
   ImageBackgroundStyle: {
     flex: 1,
     justifyContent: 'flex-end',
+    height: '110%',
   },
   buttonImageStyle: {
     width: 390,

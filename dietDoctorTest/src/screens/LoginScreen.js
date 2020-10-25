@@ -23,7 +23,7 @@ const LoginScreen = ({ navigation }) => {
         <LoginForm
           buttonImage={nextButtonImage}
           onSubmit={login}
-          onAuthentication={() => navigation.navigate('HomeScreen')}>
+          onAuthentication={() => navigation.navigate('AppNavigator')}>
           <View>
             <Text style={loginStyle.forgotPasswordText}>Forgot Password</Text>
           </View>
