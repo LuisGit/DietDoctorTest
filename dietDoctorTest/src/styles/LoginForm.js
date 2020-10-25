@@ -20,6 +20,11 @@ const LoginForm = StyleSheet.create({
     height: 45,
     resizeMode: 'contain',
   },
+  errorImage: {
+    width: 300,
+    height: 280,
+    resizeMode: 'stretch',
+  },
 });
 
 export default LoginForm;

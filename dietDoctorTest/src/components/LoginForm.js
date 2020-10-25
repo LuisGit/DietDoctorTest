@@ -6,24 +6,31 @@ import {
   Text,
   TouchableOpacity,
 } from 'react-native';
+import { Overlay } from 'react-native-elements';
 import { setToken } from '../api/token';
 import formStyle from '../styles/LoginForm';
+
+const errorMessage = require('../assets/images/EmailError.png');
 
 const LoginForm = ({ buttonImage, onSubmit, children, onAuthentication }) => {
   const [email, onChangeEmail] = useState('');
   const [password, onChangePassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [showOverlay, setShowOverlay] = useState(false);
 
   useEffect(() => {
     onChangeEmail('stas.testuser1@dietdoctor.com');
     onChangePassword('C5(Pg5qwrwP^(WJ!eS%d38FI');
   }, []);
 
+  const toggleOverlay = () => {
+    setShowOverlay(!showOverlay);
+  };
+
   const submit = async () => {
     const data = await onSubmit(email, password);
     console.log(data.token);
     if (data === 'Error') {
-      alert('Error!');
+      toggleOverlay();
     } else {
       await setToken(data.token);
       onAuthentication();
@@ -51,6 +58,9 @@ const LoginForm = ({ buttonImage, onSubmit, children, onAuthentication }) => {
       </TouchableOpacity>
       {errorMessage ? <Text>{errorMessage}</Text> : null}
       {children}
+      <Overlay isVisible={showOverlay} onBackdropPress={toggleOverlay}>
+        <Image style={formStyle.errorImage} source={errorMessage} />
+      </Overlay>
     </ScrollView>
   );
 };
