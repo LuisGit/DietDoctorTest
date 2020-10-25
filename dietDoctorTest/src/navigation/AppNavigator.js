@@ -2,6 +2,7 @@ import React from 'react';
 import { Alert } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { getToken } from '../api/token';
 
 import RecipiesScreen from '../screens/RecipiesScreen';
 import MealsScreen from '../screens/MealsScreen';
@@ -36,7 +37,30 @@ const AppNavigator = () => {
         inactiveTintColor: 'gray',
       }}>
       <Tab.Screen name="Recipies" component={RecipiesScreen} />
-      <Tab.Screen name="Meals" component={MealsScreen} />
+      <Tab.Screen
+        name="Meals"
+        component={MealsScreen}
+        listeners={({ navigation, route }) => ({
+          tabPress: async (e) => {
+            const token = !!(await getToken());
+            if (!token) {
+              return Alert.alert(
+                // Shows up the alert without redirecting anywhere
+                'Login required',
+                "You can't browse this section without sing in",
+                [
+                  {
+                    text: 'Accept',
+                    onPress: () => {
+                      navigation.navigate('Recipies');
+                    },
+                  },
+                ],
+              );
+            }
+          },
+        })}
+      />
       <Tab.Screen
         name="Logout"
         component={LogOutScreen}
