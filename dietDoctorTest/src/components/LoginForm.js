@@ -5,6 +5,7 @@ import {
   TextInput,
   Text,
   TouchableOpacity,
+  Alert,
 } from 'react-native';
 import { Overlay } from 'react-native-elements';
 import { setToken } from '../api/token';
@@ -28,9 +29,17 @@ const LoginForm = ({ buttonImage, onSubmit, children, onAuthentication }) => {
 
   const submit = async () => {
     const data = await onSubmit(email, password);
-    console.log(data.token);
     if (data === 'Error') {
-      toggleOverlay();
+      Alert.alert(
+        // Shows up the alert without redirecting anywhere
+        'Error',
+        'Email or password incorrect, try again!',
+        [
+          {
+            text: 'Accept',
+          },
+        ],
+      );
     } else {
       await setToken(data.token);
       onAuthentication();
