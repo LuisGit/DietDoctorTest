@@ -32,6 +32,23 @@ export const post = async (destination, body) => {
   }
 };
 
+export const doPost = async (destination, data) => {
+  const headers = await getHeaders();
+  var config = {
+    method: 'post',
+    url: 'https://ddapi.production.dietdoctor.com/v1/',
+    headers,
+    data,
+  };
+
+  try {
+    const response = await axios(config);
+    return response;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 export const get = async (destination) => {
   const headers = await getHeaders();
   const config = {
