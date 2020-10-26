@@ -18,11 +18,6 @@ const LoginForm = ({ buttonImage, onSubmit, children, onAuthentication }) => {
   const [password, onChangePassword] = useState('');
   const [showOverlay, setShowOverlay] = useState(false);
 
-  useEffect(() => {
-    onChangeEmail('stas.testuser1@dietdoctor.com');
-    onChangePassword('C5(Pg5qwrwP^(WJ!eS%d38FI');
-  }, []);
-
   const toggleOverlay = () => {
     setShowOverlay(!showOverlay);
   };
